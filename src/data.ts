@@ -219,6 +219,6 @@ export const FAQS: FAQ[] = [
   },
   {
     question: "Qual a garantia do produto?",
-    answer: "Nós oferecemos uma garantia incondicional de 7 dias. Se você não gostar, devolvemos 100% do seu dinheiro."
+    answer: "Nós oferecemos uma garantia incondicional de 14 dias. Se você não gostar, devolvemos 100% do seu dinheiro."
   }
 ];

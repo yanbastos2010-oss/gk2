@@ -106,6 +106,11 @@ export default function App() {
               src="https://i.ibb.co/Qjx0XrXb/Untitled-design-7.webp" 
               alt="Mockup do Infoproduto Goleiros" 
               referrerPolicy="no-referrer"
+              loading="eager"
+              fetchPriority="high"
+              decoding="async"
+              width="576"
+              height="432"
               className="w-full h-auto object-contain max-h-[480px]"
             />
           </motion.div>
@@ -324,11 +329,6 @@ export default function App() {
 
             {/* Guarantee Text Content */}
             <div className="space-y-2 relative z-10">
-              <div className="flex flex-col sm:flex-row sm:items-center gap-2">
-                <span className="text-[10px] uppercase tracking-widest bg-emerald-50 text-emerald-700 font-extrabold px-3 py-1 rounded-full border border-emerald-100 inline-block w-fit mx-auto md:mx-0">
-                  Compromisso Sem Riscos
-                </span>
-              </div>
               <h3 className="text-2xl md:text-3xl font-display font-black text-[#011a0c] tracking-tight">
                 Garantia de 14 dias
               </h3>
@@ -373,6 +373,10 @@ export default function App() {
                         src={test.image} 
                         alt={test.name} 
                         referrerPolicy="no-referrer"
+                        loading="lazy"
+                        decoding="async"
+                        width="40"
+                        height="40"
                         className="w-10 h-10 rounded-full object-cover"
                       />
                       <h4 className="text-gray-900 font-display font-semibold text-sm">

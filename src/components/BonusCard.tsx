@@ -1,12 +1,13 @@
 import { motion } from "motion/react";
 import { BONUSES, Bonus } from "../data";
-import { ClipboardCheck, BookOpen, Flame, Gift, Check } from "lucide-react";
+import { ClipboardCheck, BookOpen, Flame, Gift, Check, Brain } from "lucide-react";
 
 // Icon components helper mapping dynamically to lucide icons
 const iconMap: Record<string, any> = {
   ClipboardCheck: ClipboardCheck,
   BookOpen: BookOpen,
   Flame: Flame,
+  Brain: Brain,
 };
 
 export default function BonusCard() {
