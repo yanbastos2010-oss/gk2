@@ -119,10 +119,10 @@ export const BONUSES: Bonus[] = [
   {
     id: 2,
     tag: "BÔNUS 2",
-    title: "Guia Completo de Posicionamento para Goleiros",
-    description: "Leitura de jogo e tomada de decisão.",
+    title: "Guia de Preparação Mental e Foco para Goleiros",
+    description: "Estratégias avançadas para manter a calma sob pressão e ter uma mente blindada.",
     originalPrice: "R$ 67,00",
-    iconName: "BookOpen"
+    iconName: "Brain"
   },
   {
     id: 3,

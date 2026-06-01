@@ -162,7 +162,7 @@ export default function PricingSection() {
                 </li>
                 <li className="flex items-start gap-2.5">
                   <Gift className="w-5 h-5 text-brand-accent shrink-0 mt-0.5" />
-                  <span><strong>BÔNUS: Guia Completo de Posicionamento para Goleiros</strong></span>
+                  <span><strong>BÔNUS: Guia de Preparação Mental e Foco para Goleiros</strong></span>
                 </li>
                 <li className="flex items-start gap-2.5">
                   <Gift className="w-5 h-5 text-brand-accent shrink-0 mt-0.5" />
