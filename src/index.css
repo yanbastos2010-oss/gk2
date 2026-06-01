@@ -26,9 +26,3 @@
 html {
   scroll-behavior: smooth;
 }
-
-/* Performance Optimization: Defer offscreen rendering to boost First Input Delay and FCP */
-.defer-render {
-  content-visibility: auto;
-  contain-intrinsic-size: 1px 700px;
-}

@@ -100,7 +100,7 @@ export default function App() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.12 }}
-            className="mt-10 w-full max-w-xl flex justify-center aspect-[4/3] max-h-[480px]"
+            className="mt-10 w-full max-w-xl flex justify-center"
           >
             <img 
               src="https://i.ibb.co/Qjx0XrXb/Untitled-design-7.webp" 
@@ -111,7 +111,7 @@ export default function App() {
               decoding="async"
               width="576"
               height="432"
-              className="w-full h-auto object-contain max-h-[480px] aspect-[4/3] bg-slate-50/10 rounded-2xl"
+              className="w-full h-auto object-contain max-h-[480px]"
             />
           </motion.div>
 
@@ -137,7 +137,7 @@ export default function App() {
       </section>
 
       {/* 3. O QUE VOCÊ VAI RECEBER */}
-      <section id="conteudo" className="relative py-14 px-6 bg-white text-brand-dark scroll-mt-20 overflow-hidden defer-render">
+      <section id="conteudo" className="relative py-14 px-6 bg-white text-brand-dark scroll-mt-20 overflow-hidden">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-emerald-50/40 rounded-full blur-3xl -z-10" />
 
         <div className="max-w-5xl mx-auto">
@@ -255,7 +255,7 @@ export default function App() {
       </section>
 
       {/* 4. BENEFÍCIOS ("Por Que Escolher Nossas Dinâmicas de Goleiro?") */}
-      <section id="beneficios" className="relative py-14 px-6 bg-white border-t border-gray-100 defer-render">
+      <section id="beneficios" className="relative py-14 px-6 bg-white border-t border-gray-100">
         <div className="max-w-6xl mx-auto">
           
           {/* Header */}
@@ -341,7 +341,7 @@ export default function App() {
       </section>
 
       {/* 8. DEPOIMENTOS (Fortalecidos por atletas renomados como Alisson e Ederson, mais clientes reais) */}
-      <section id="depoimentos" className="relative py-14 px-6 bg-white overflow-hidden border-t border-gray-100 defer-render">
+      <section id="depoimentos" className="relative py-14 px-6 bg-white overflow-hidden border-t border-gray-100">
         
         {/* Glowing lighting dots */}
         <div className="absolute top-1/2 left-0 w-72 h-72 bg-emerald-500/5 rounded-full blur-[100px] pointer-events-none" />
@@ -377,7 +377,7 @@ export default function App() {
                         decoding="async"
                         width="40"
                         height="40"
-                        className="w-10 h-10 rounded-full object-cover aspect-square bg-slate-100"
+                        className="w-10 h-10 rounded-full object-cover"
                       />
                       <h4 className="text-gray-900 font-display font-semibold text-sm">
                         {test.name}

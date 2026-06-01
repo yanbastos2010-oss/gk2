@@ -12,7 +12,7 @@ const iconMap: Record<string, any> = {
 
 export default function BonusCard() {
   return (
-    <section id="bonus" className="relative py-14 px-6 bg-white overflow-hidden border-t border-gray-100 defer-render">
+    <section id="bonus" className="relative py-14 px-6 bg-white overflow-hidden border-t border-gray-100">
       
       {/* Decorative soccer grid element */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#e2e8f0_1px,transparent_1px),linear-gradient(to_bottom,#e2e8f0_1px,transparent_1px)] bg-[size:4rem_4rem] opacity-30 pointer-events-none" />
