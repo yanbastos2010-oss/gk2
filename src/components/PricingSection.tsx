@@ -39,7 +39,7 @@ export default function PricingSection() {
   };
 
   return (
-    <section id="precos" className="relative py-14 px-6 bg-white overflow-hidden scroll-mt-10">
+    <section id="precos" className="relative py-14 px-6 bg-white overflow-hidden scroll-mt-10 defer-render">
       
       {/* Soft background grids */}
       <div className="absolute top-0 right-0 w-80 h-80 bg-brand-neon/5 rounded-full blur-3xl pointer-events-none" />

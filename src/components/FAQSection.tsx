@@ -11,7 +11,7 @@ export default function FAQSection() {
   };
 
   return (
-    <section id="faq" className="relative py-14 px-6 bg-white overflow-hidden">
+    <section id="faq" className="relative py-14 px-6 bg-white overflow-hidden defer-render">
       
       {/* Decorative vectors */}
       <div className="absolute top-1/3 left-0 w-80 h-80 bg-emerald-100/30 rounded-full blur-3xl pointer-events-none" />
